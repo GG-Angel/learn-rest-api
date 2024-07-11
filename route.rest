@@ -1,0 +1,29 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/668f8c40f997b243683e9f38
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+  "name": "CoolPerson9128",
+  "subscribedTo": "Furious"
+}
+
+###
+
+PATCH http://localhost:3000/subscribers/668f8eb74865a9ec9f86e71b
+Content-Type: application/json
+
+{
+  "name": "NewName24",
+  "subscribedTo": "Sam Sulek"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/668f8c0bf997b243683e9f35
